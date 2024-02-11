@@ -19,10 +19,7 @@
             <div class="navbar-nav mr-auto">
               <a class="nav-link" href="{{ url_for('about') }}">О нас</a>
               {% if current_user.is_authenticated %}
-                <a class="nav-link" href="{{ url_for('bill') }}">Чеки</a>
-                <a class="nav-link" href="{{ url_for('items') }}">Препараты</a>
-                <a class="nav-link" href="{{ url_for('expired') }}">Непригодные товары</a>
-                <a class="nav-link" href="{{ url_for('outOfStock') }}">На исходе</a>
+                <a class="nav-link" href="{{ url_for('catalog') }}">Каталог</a>
               {% endif %}
             </div>
             <!-- Navbar Right Side -->

@@ -12,3 +12,4 @@ login_manager.login_message_category = 'info'
 
 
 from core import router
+from core import clientrouter
