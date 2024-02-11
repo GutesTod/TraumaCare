@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block content %}
+<form method="POST" action="">
+  <fieldset class="form-group">
+    <legend>Поиск препарата</legend>
+      {{form.search()}}
+    <br><br><br>
+      {{form.submit_search()}}
+    <br><br>
+  </fieldset>
+</form>
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>
+          Название препарата
+        </th>
+        <th>Дата упаковки</th>
+        <th>Срок годности</th>
+        <th>Количество</th>
+        <th>
+          Цена
+           || 
+          <a href="?sortPrice=asc">По возрастанию</a>
+           || 
+          <a href="?sortPrice=desc">По убыванию</a>
+        </th>
+      </tr>
+    </thead>
+  {%for item in items%}
+  <tbody>
+  <tr>
+    <td>{{item.item_name}}</td>
+    <td>{{item.pkd_date.strftime('%d-%m-%Y')}}</td>
+    <td>{{item.exp_date.strftime('%d-%m-%Y')}}</td>
+    <td>{{item.quantity}}</td>
+    <td>{{item.price}}</td>
+  </tr>
+  </tbody>
+  {% endfor %}
+</table>
+
+
+{% endblock content %}

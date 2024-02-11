@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>TraumaCare</title>
+  </head>
+  <body>
+
+    <header class="site-header">
+
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a  class="navbar-brand" href="/">TraumaCare</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <div class="navbar-nav mr-auto">
+              <a class="nav-link" href="{{ url_for('about') }}">О нас</a>
+              {% if current_user.is_authenticated %}
+                <a class="nav-link" href="{{ url_for('bill') }}">Чеки</a>
+                <a class="nav-link" href="{{ url_for('items') }}">Препараты</a>
+                <a class="nav-link" href="{{ url_for('expired') }}">Непригодные товары</a>
+                <a class="nav-link" href="{{ url_for('outOfStock') }}">На исходе</a>
+              {% endif %}
+            </div>
+            <!-- Navbar Right Side -->
+            <div class="navbar-nav">
+              {% if current_user.is_authenticated %}
+                <a class="nav-link" href="{{ url_for('logout') }}">Выйти</a>
+                {% if current_user.is_admin %}
+                  <a class="nav-link" href="{{ url_for('admin') }}">Админ Панель</a>
+                {% endif %}
+              {% else %}
+                <a class="nav-link" href="{{ url_for('login') }}">Авторизация</a>
+                <a class="nav-link" href="{{ url_for('register') }}">Регистрация</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header><br><br><br><br>
+    <div class="container">
+
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <!-- <div class="row justify-content-md-center">
+      <div class="col col-lg-2">
+     <img src="https://image.shutterstock.com/image-photo/pharmacy-background-on-black-table-260nw-376019317.jpg" class="rounded" alt="medicine" width="500" height="2322">
+   </div>
+   <div class="col-md-auto">-->
+
+   <div class="jumbotron text-center  style="margin-bottom:0">
+     <h1>TraumaCare <h1>
+       <p class="text-muted">ваше здоровье - наш приоритет</p>
+   </div><br><br>
+     <h1 class=" text-left">TraumaCare - это забота о человечестве</h1>
+     <br><br>
+     <h5 class="mb-12 d-block p-2">Мы предоставляем все виды лекарств.В этом проекте мы можем выставлять счета за лекарства.Мы также можем знать, какие лекарства истекают, а каких нет на складе.Эта страница посвящена исключительно этому проекту.</h5>
+
+      <div  class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images.financialexpress.com/2020/03/1-578.jpg" alt="m1" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="https://epsilon.aeon.co/images/afef287f-dd6f-4a6a-b8a6-4f0a09330657/idea_sized-kendal-l4ikccachoc-unsplash.jpg" alt="m2" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.dnaindia.com/sites/default/files/styles/half/public/2019/06/18/837752-medicines-istock.jpg?itok=DTVK9OtN" alt="m3" width="1100" height="500">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next"  href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div><br><br>
+    <p>Когда ваши дети болеют, все, что вы хотите сделать, это помочь им почувствовать себя лучше. Но при наличии всех этих различных продуктов может быть трудно понять, какое лекарство им давать, в каком количестве им нужно и как часто их давать.
+    Вот несколько основных рекомендаций, которые помогут вам начать работу.</p>
+
+    <h5 class="mb-12">Внимательно прочитайте инструкцию на упаковке.</h5>
+    <p>Не все лекарства следует назначать с одинаковыми часовыми интервалами или в одинаковых количествах. Следуйте инструкциям на упаковке и давайте вашему ребенку соответствующее количество лекарства, указанное на этикетке, с надлежащими интервалами.
+    </p>
+    <h5 class="mb-12">Используйте соответствующее измерительное устройство.</h5>
+    <p>Всегда используйте капельницу, дозировочный стаканчик или другое измерительное устройство, прилагаемое к лекарству. Разные лекарства имеют разную концентрацию, поэтому использование стаканчика для лекарств от одного продукта для измерения дозы другого продукта не всегда будет точным. Постоянно держите при себе измерительное устройство продукта, чтобы вы могли сразу отмерить нужную дозу. Если у вас больше нет измерительного прибора, обратитесь к своему фармацевту за заменой. И обязательно вымойте измерительный прибор после использования.
+    </p>
+    <h5 class="mb-12">Убедитесь, что лекарство соответствует возрасту.</h5>
+    <p>Убедитесь, что вы даете правильную смесь, соответствующую возрасту и / или весу вашего ребенка. Детские лекарства могут быть специально разработаны, поэтому вам, возможно, придется менять составы по мере их взросления. Всегда принимайте лекарство по назначению и обратитесь к своему врачу, если у вас возникнут дополнительные вопросы.
+    </p>
+    <h5 class="mb-12">Не бойтесь задавать вопросы.</h5>
+<p>
+  Если у вас есть какие-либо вопросы о том, какая форма или дозировка наиболее подходит для вашего ребенка, не стесняйтесь обращаться к своему педиатру. Если ваш ребенок принимает более одного лекарства или рецепта, ваш педиатр или фармацевт может стать вашим лучшим другом. Он или она может помочь вам подобрать подходящее лекарство, дозировку и частоту применения для любого продукта — будь то отпускаемый по рецепту или отпускаемый без рецепта.
+</p>
+    <h5 class="mb-12">Не злоупотребляйте лекарствами.Не бойтесь задавать вопросы.</h5>
+
+  <p>  Когда ваш ребенок плохо себя чувствует, ему трудно хорошо выспаться ночью. И чаще всего это означает, что вам, родителю, тоже не придется долго закрывать глаза. Однако важно следовать инструкциям по дозировке на этикетке.</strong> Никогда не используйте лекарство от простуды, чтобы усыпить вашего ребенка.<strong>
+</p>
+<h5 class="mb-12"></h5>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+  <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+  <div class="container text-center">
+    <small>Copyright &copy; TraumaCare .&reg;</small>
+  </div>
+</footer>
+</html>

@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block content %}
+<!-- post.date_posted.strftime('%Y-%m-%d') -->
+<table id="areaid"class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Название препарата</th>
+        <th>Количество</th>
+        <th>Цена</th>
+        <th>Код транзакции</th>
+      </tr>
+    </thead>
+  {% for bills in bill %}
+  <tbody>
+  <tr>
+    <td>{{bills.itemName}}</td>
+    <td>{{bills.quantity}}</td>
+    <td>{{bills.price}}</td>
+    <td>{{bills.code_transaction}}</td>
+  </tr>
+  </tbody>
+  {% endfor %}
+</table>
+
+
+
+{% endblock content %}

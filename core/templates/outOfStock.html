@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block content %}
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Название препарата</th>
+        <th>Количество</th>
+        <th>Цена</th>
+      </tr>
+    </thead>
+  {%for bills in items%}
+  <tbody>
+  <tr>
+    <td>{{bills.item_name}}</td>
+    <td>{{bills.quantity}}</td>
+    <td>{{bills.price}}</td>
+  </tr>
+  </tbody>
+  {% endfor %}
+</table>
+
+
+
+  {% endblock content %}

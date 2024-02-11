@@ -1,0 +1,54 @@
+{% extends "admin_layout.html" %}
+{% block content %}
+<form method="POST" action="">
+    <fieldset class="form-group">
+      <legend>Добавить препарат</legend>
+                {{ form.itemName.label() }}
+                      {{ form.itemName() }}
+  
+                  {{ form.pkdDate.label() }}
+                      {{ form.pkdDate() }}
+  
+                  {{ form.expDate.label() }}
+                      {{ form.expDate() }}
+  <br><br><br>
+                  {{ form.quantity.label() }}
+                      {{ form.quantity() }}
+  
+                  {{ form.price.label() }}
+                      {{ form.price() }}
+  </fieldset>
+  <br><br>
+             {{ form.add() }}
+  
+</form>
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Название препарата</th>
+        <th>Дата упаковки</th>
+        <th>Срок годности</th>
+        <th>Количество</th>
+        <th>
+          Цена
+        </th>
+      </tr>
+    </thead>
+  {%for item in items%}
+  <tbody>
+  <tr>
+    <td>
+      {{item.item_name}}<br>
+      <a href="?deleteItem={{item.id}}">Удалить препарат</a>
+    </td>
+    <td>{{item.pkd_date.strftime('%d-%m-%Y')}}</td>
+    <td>{{item.exp_date.strftime('%d-%m-%Y')}}</td>
+    <td>{{item.quantity}}</td>
+    <td>{{item.price}}</td>
+  </tr>
+  </tbody>
+  {% endfor %}
+</table>
+
+
+{% endblock content %}
