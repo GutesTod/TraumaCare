@@ -17,6 +17,9 @@
   
                   {{ form.price.label() }}
                       {{ form.price() }}
+
+                  {{ form.description.label() }}
+                      {{ form.description() }}
   </fieldset>
   <br><br>
              {{ form.add() }}
@@ -29,9 +32,8 @@
         <th>Дата упаковки</th>
         <th>Срок годности</th>
         <th>Количество</th>
-        <th>
-          Цена
-        </th>
+        <th>Цена</th>
+        <th>Описание препарата</th>
       </tr>
     </thead>
   {%for item in items%}

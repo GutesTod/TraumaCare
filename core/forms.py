@@ -29,6 +29,7 @@ class addItemForm(FlaskForm):
     expDate=DateField('Срок годности', validators=[DataRequired()])
     quantity=IntegerField('Количество',validators=[DataRequired()])
     price=IntegerField('Цена',validators=[DataRequired()])
+    description=StringField('Описание', validators=[DataRequired()])
     add = SubmitField('Добавить')
 class billItemForm(FlaskForm):
     itemName=StringField('Название препарата', validators=[DataRequired()])

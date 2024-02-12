@@ -1,0 +1,1315 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "clientrouter.py",
+			"settings":
+			{
+				"buffer_size": 413,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"BwAAADsBAAAAAAAAPAEAAAAAAAAAAAAAPAEAAAAAAABXAQAAAAAAAAAAAAA8AQAAAAAAADwBAAAAAAAAGwAAACAgICAgICAgICAgICAgICAgICAgICAgICAgIDwBAAAAAAAAQAEAAAAAAAAAAAAAQAEAAAAAAABBAQAAAAAAAAAAAABBAQAAAAAAAEUBAAAAAAAAAAAAADwBAAAAAAAAPAEAAAAAAAAEAAAAICAgIA",
+					"AQAAAAAAAAABAAAAOwEAAAAAAAA7AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					2,
+					"left_delete",
+					null,
+					"AgAAAD0BAAAAAAAAPQEAAAAAAAAEAAAAICAgIDwBAAAAAAAAPAEAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAQQEAAAAAAABBAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "\n@app"
+					},
+					"BQAAADwBAAAAAAAAPQEAAAAAAAAAAAAAPQEAAAAAAAA+AQAAAAAAAAAAAAA+AQAAAAAAAD8BAAAAAAAAAAAAAD8BAAAAAAAAQAEAAAAAAAAAAAAAQAEAAAAAAABBAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPAEAAAAAAAA8AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "."
+					},
+					"AQAAAEEBAAAAAAAAQgEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQQEAAAAAAABBAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					7,
+					"left_delete",
+					null,
+					"BwAAAEEBAAAAAAAAQQEAAAAAAAABAAAALkABAAAAAAAAQAEAAAAAAAABAAAAcD8BAAAAAAAAPwEAAAAAAAABAAAAcD4BAAAAAAAAPgEAAAAAAAABAAAAYT0BAAAAAAAAPQEAAAAAAAABAAAAQDwBAAAAAAAAPAEAAAAAAAABAAAACjsBAAAAAAAAOwEAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAQgEAAAAAAABCAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAA7AQAAZnJvbSBmbGFzayBpbXBvcnQgcmVuZGVyX3RlbXBsYXRlCmZyb20gY29yZSBpbXBvcnQgYXBwCmZyb20gZmxhc2tfbG9naW4gaW1wb3J0IGN1cnJlbnRfdXNlcgoKQGFwcC5yb3V0ZSgiL2NhdGFsb2ciLCBtZXRob2RzPVsnR0VUJ10pCmRlZiBjYXRhbG9nKCk6CiAgICByZXR1cm4gcmVuZGVyX3RlbXBsYXRlKCdjYXRhbG9nLmh0bWwnLAogICAgICAgICAgICAgICAgICAgICAgICAgICB0aXRsZT0nY2F0YWxvZycsIAogICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50X3VzZXJfdXNlcm5hbWU9Y3VycmVudF91c2VyLmlzX2F1dGhlbnRpY2F0ZWQpAAAAAAAAAACdAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOwEAAAAAAAA7AQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "templates/catalog.html",
+			"settings":
+			{
+				"buffer_size": 985,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					2,
+					"left_delete",
+					null,
+					"AgAAAGoCAAAAAAAAagIAAAAAAAAVAAAAPHNwYW4+Q2F0ZWdvcnk8L3NwYW4+aQIAAAAAAABpAgAAAAAAAAEAAAAg",
+					"AQAAAAAAAAABAAAAagIAAAAAAAB/AgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAALcAAAAAAAAAuAAAAAAAAAAAAAAAuAAAAAAAAAC5AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtwAAAAAAAAC3AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"paste",
+					null,
+					"AQAAALkAAAAAAAAAzgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuQAAAAAAAAC5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAFsGAAAAAAAAXAYAAAAAAAAAAAAAXAYAAAAAAABdBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWwYAAAAAAABbBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"paste",
+					null,
+					"AQAAAF0GAAAAAAAAcgYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXQYAAAAAAABdBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "endfor"
+					},
+					"BwAAAF8GAAAAAAAAYAYAAAAAAAAAAAAAYAYAAAAAAABgBgAAAAAAABEAAABmb3IgaXRlbSBpbiBpdGVtc2AGAAAAAAAAYQYAAAAAAAAAAAAAYQYAAAAAAABiBgAAAAAAAAAAAABiBgAAAAAAAGMGAAAAAAAAAAAAAGMGAAAAAAAAZAYAAAAAAAAAAAAAZAYAAAAAAABlBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcAYAAAAAAABfBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					23,
+					2,
+					"insert_snippet",
+					{
+						"contents": "{${0:$SELECTION}}"
+					},
+					"BAAAAGkCAAAAAAAAaQIAAAAAAAAXAAAAUHJvZHVjdCBOYW1lIFRpdGxlIEhlcmVpAgAAAAAAAIICAAAAAAAAAAAAAGoCAAAAAAAAagIAAAAAAAAXAAAAUHJvZHVjdCBOYW1lIFRpdGxlIEhlcmVqAgAAAAAAAIMCAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgAIAAAAAAABpAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGsCAAAAAAAAawIAAAAAAAAXAAAAUHJvZHVjdCBOYW1lIFRpdGxlIEhlcmU",
+					"AQAAAAAAAAABAAAAawIAAAAAAACCAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "  "
+					},
+					"AgAAAGsCAAAAAAAAbAIAAAAAAAAAAAAAbAIAAAAAAABtAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAawIAAAAAAABrAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": "item."
+					},
+					"BQAAAGwCAAAAAAAAbQIAAAAAAAAAAAAAbQIAAAAAAABuAgAAAAAAAAAAAABuAgAAAAAAAG8CAAAAAAAAAAAAAG8CAAAAAAAAcAIAAAAAAAAAAAAAcAIAAAAAAABxAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbAIAAAAAAABsAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"paste",
+					null,
+					"AQAAAHECAAAAAAAAegIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcQIAAAAAAABxAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					3,
+					"left_delete",
+					null,
+					"AwAAAMcCAAAAAAAAxwIAAAAAAAABAAAAOcYCAAAAAAAAxgIAAAAAAAABAAAAOcUCAAAAAAAAxQIAAAAAAAABAAAAJA",
+					"AQAAAAAAAAABAAAAyAIAAAAAAADIAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					35,
+					1,
+					"insert",
+					{
+						"characters": "{{}}"
+					},
+					"BAAAAMUCAAAAAAAAxgIAAAAAAAAAAAAAxgIAAAAAAADHAgAAAAAAAAAAAADHAgAAAAAAAMgCAAAAAAAAAAAAAMgCAAAAAAAAyQIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxQIAAAAAAADFAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					38,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAMgCAAAAAAAAyQIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAyAIAAAAAAADIAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMgCAAAAAAAAyAIAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAyQIAAAAAAADJAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					1,
+					"insert",
+					{
+						"characters": "  "
+					},
+					"AgAAAMcCAAAAAAAAyAIAAAAAAAAAAAAAyAIAAAAAAADJAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxwIAAAAAAADHAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					43,
+					1,
+					"insert",
+					{
+						"characters": "item.p"
+					},
+					"BgAAAMgCAAAAAAAAyQIAAAAAAAAAAAAAyQIAAAAAAADKAgAAAAAAAAAAAADKAgAAAAAAAMsCAAAAAAAAAAAAAMsCAAAAAAAAzAIAAAAAAAAAAAAAzAIAAAAAAADNAgAAAAAAAAAAAADNAgAAAAAAAM4CAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAyAIAAAAAAADIAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					44,
+					1,
+					"insert",
+					{
+						"characters": "rice"
+					},
+					"BAAAAM4CAAAAAAAAzwIAAAAAAAAAAAAAzwIAAAAAAADQAgAAAAAAAAAAAADQAgAAAAAAANECAAAAAAAAAAAAANECAAAAAAAA0gIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzgIAAAAAAADOAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					82,
+					6,
+					"left_delete",
+					null,
+					"BgAAAH0DAAAAAAAAfQMAAAAAAADNAgAAPGRpdiBjbGFzcz0icHJvZHVjdC1pbmZvIHNtYXJ0LWZvcm0iPgoJCQkJCTxkaXYgY2xhc3M9InJvdyI+CgkJCQkJCTxkaXYgY2xhc3M9ImNvbC1tZC02IGNvbC1zbS02IGNvbC14cy02Ij4gCgkJCQkJCQk8YSBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCk7IiBjbGFzcz0iYnRuIGJ0bi1zdWNjZXNzIj5BZGQgdG8gY2FydDwvYT4KCQkJCQkJPC9kaXY+CgkJCQkJCTxkaXYgY2xhc3M9ImNvbC1tZC02IGNvbC1zbS02IGNvbC14cy02Ij4KCQkJCQkJCTxkaXYgY2xhc3M9InJhdGluZyI+CgkJCQkJCQkJPGxhYmVsIGZvcj0ic3RhcnMtcmF0aW5nLTUiPjxpIGNsYXNzPSJmYSBmYS1zdGFyIj48L2k+PC9sYWJlbD4KCQkJCQkJCQk8bGFiZWwgZm9yPSJzdGFycy1yYXRpbmctNCI+PGkgY2xhc3M9ImZhIGZhLXN0YXIiPjwvaT48L2xhYmVsPgoJCQkJCQkJCTxsYWJlbCBmb3I9InN0YXJzLXJhdGluZy0zIj48aSBjbGFzcz0iZmEgZmEtc3RhciB0ZXh0LXByaW1hcnkiPjwvaT48L2xhYmVsPgoJCQkJCQkJCTxsYWJlbCBmb3I9InN0YXJzLXJhdGluZy0yIj48aSBjbGFzcz0iZmEgZmEtc3RhciB0ZXh0LXByaW1hcnkiPjwvaT48L2xhYmVsPgoJCQkJCQkJCTxsYWJlbCBmb3I9InN0YXJzLXJhdGluZy0xIj48aSBjbGFzcz0iZmEgZmEtc3RhciB0ZXh0LXByaW1hcnkiPjwvaT48L2xhYmVsPgoJCQkJCQkJPC9kaXY+CgkJCQkJCTwvZGl2PgoJCQkJCTwvZGl2PgoJCQkJPC9kaXY+fAMAAAAAAAB8AwAAAAAAAAEAAAAJewMAAAAAAAB7AwAAAAAAAAEAAAAJegMAAAAAAAB6AwAAAAAAAAEAAAAJeQMAAAAAAAB5AwAAAAAAAAEAAAAJeAMAAAAAAAB4AwAAAAAAAAEAAAAK",
+					"AQAAAAAAAAABAAAAfQMAAAAAAABKBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					83,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAADUAwAAeyUgZXh0ZW5kcyAibGF5b3V0Lmh0bWwiICV9CnslIGJsb2NrIGNvbnRlbnQgJX0KPGxpbmsgaHJlZj0iL3N0YXRpYy9jc3MvY2F0YWxvZy5jc3MiIHJlbD0ic3R5bGVzaGVldCIgLz4KPGRpdiBjbGFzcz0iY29sLXhzLTEyIGNvbC1tZC02IGJvb3RzdHJhcCBzbmlwcGV0cyBib290ZGV5cyI+Cgk8IS0tIHByb2R1Y3QgLS0+Cgl7JWZvciBpdGVtIGluIGl0ZW1zJX0KCTxkaXYgY2xhc3M9InByb2R1Y3QtY29udGVudCBwcm9kdWN0LXdyYXAgY2xlYXJmaXgiPgoJCTxkaXYgY2xhc3M9InJvdyI+CgkJCQk8ZGl2IGNsYXNzPSJjb2wtbWQtNSBjb2wtc20tMTIgY29sLXhzLTEyIj4KCQkJCQk8ZGl2IGNsYXNzPSJwcm9kdWN0LWltYWdlIj4gCgkJCQkJCTxpbWcgc3JjPSJodHRwczovL3d3dy5ib290ZGV5LmNvbS9pbWFnZS8xOTR4MjI4Lzg3Q0VGQSIgYWx0PSIxOTR4MjI4IiBjbGFzcz0iaW1nLXJlc3BvbnNpdmUiPiAKCQkJCQk8L2Rpdj4KCQkJCTwvZGl2PgoJCQkJPGRpdiBjbGFzcz0iY29sLW1kLTcgY29sLXNtLTEyIGNvbC14cy0xMiI+CgkJCQk8ZGl2IGNsYXNzPSJwcm9kdWN0LWRlYXRpbCI+CgkJCQkJCTxoNSBjbGFzcz0ibmFtZSI+CgkJCQkJCQk8YSBocmVmPSIjIj4KCQkJCQkJCQl7eyBpdGVtLml0ZW1fbmFtZSB9fQoJCQkJCQkJPC9hPgoJCQkJCQk8L2g1PgoJCQkJCQk8cCBjbGFzcz0icHJpY2UtY29udGFpbmVyIj4KCQkJCQkJCTxzcGFuPnt7IGl0ZW0ucHJpY2UgfX08L3NwYW4+CgkJCQkJCTwvcD4KCQkJCQkJPHNwYW4gY2xhc3M9InRhZzEiPjwvc3Bhbj4gCgkJCQk8L2Rpdj4KCQkJCTxkaXYgY2xhc3M9ImRlc2NyaXB0aW9uIj4KCQkJCQk8cD5Qcm9pbiBpbiB1bGxhbWNvcnBlciBsb3JlbS4gTWFlY2VuYXMgZXUgaXBzdW0gPC9wPgoJCQkJPC9kaXY+CgkJCTwvZGl2PgoJCTwvZGl2PgoJPC9kaXY+Cgl7JWVuZGZvciV9Cgk8IS0tIGVuZCBwcm9kdWN0IC0tPgo8L2Rpdj4KCnslIGVuZGJsb2NrIGNvbnRlbnQgJX0AAAAAAAAAANkDAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAeAMAAAAAAAB4AwAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "models.py",
+			"settings":
+			{
+				"buffer_size": 1857,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "Д"
+					},
+					"AgAAAJMEAAAAAAAAlAQAAAAAAAAAAAAAlAQAAAAAAACUBAAAAAAAAAYAAABTdHJpbmc",
+					"AQAAAAAAAAABAAAAkwQAAAAAAACZBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJMEAAAAAAAAkwQAAAAAAAACAAAA0JQ",
+					"AQAAAAAAAAABAAAAlAQAAAAAAACUBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "Larg"
+					},
+					"BAAAAJMEAAAAAAAAlAQAAAAAAAAAAAAAlAQAAAAAAACVBAAAAAAAAAAAAACVBAAAAAAAAJYEAAAAAAAAAAAAAJYEAAAAAAAAlwQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkwQAAAAAAACTBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "eV"
+					},
+					"AgAAAJcEAAAAAAAAmAQAAAAAAAAAAAAAmAQAAAAAAACZBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlwQAAAAAAACXBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJgEAAAAAAAAmAQAAAAAAAABAAAAVg",
+					"AQAAAAAAAAABAAAAmQQAAAAAAACZBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "Binary"
+					},
+					"BgAAAJgEAAAAAAAAmQQAAAAAAAAAAAAAmQQAAAAAAACaBAAAAAAAAAAAAACaBAAAAAAAAJsEAAAAAAAAAAAAAJsEAAAAAAAAnAQAAAAAAAAAAAAAnAQAAAAAAACdBAAAAAAAAAAAAACdBAAAAAAAAJ4EAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmAQAAAAAAACYBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					7,
+					"left_delete",
+					null,
+					"BwAAAKMEAAAAAAAAowQAAAAAAAABAAAAKaIEAAAAAAAAogQAAAAAAAABAAAANKEEAAAAAAAAoQQAAAAAAAABAAAAMqAEAAAAAAAAoAQAAAAAAAABAAAAMJ8EAAAAAAAAnwQAAAAAAAABAAAAMZ4EAAAAAAAAngQAAAAAAAABAAAAKJ0EAAAAAAAAnQQAAAAAAAABAAAAeQ",
+					"AQAAAAAAAAABAAAApAQAAAAAAACkBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": "y"
+					},
+					"AQAAAJ0EAAAAAAAAngQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAnQQAAAAAAACdBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "\nыу"
+					},
+					"BAAAAK8EAAAAAAAAsAQAAAAAAAAAAAAAsAQAAAAAAAC0BAAAAAAAAAAAAAC0BAAAAAAAALUEAAAAAAAAAAAAALUEAAAAAAAAtgQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArwQAAAAAAACvBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					2,
+					"left_delete",
+					null,
+					"AgAAALUEAAAAAAAAtQQAAAAAAAACAAAA0YO0BAAAAAAAALQEAAAAAAAAAgAAANGL",
+					"AQAAAAAAAAABAAAAtgQAAAAAAAC2BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": "e"
+					},
+					"AQAAALQEAAAAAAAAtQQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtAQAAAAAAAC0BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"left_delete",
+					null,
+					"AQAAALQEAAAAAAAAtAQAAAAAAAABAAAAZQ",
+					"AQAAAAAAAAABAAAAtQQAAAAAAAC1BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": "desc"
+					},
+					"BAAAALQEAAAAAAAAtQQAAAAAAAAAAAAAtQQAAAAAAAC2BAAAAAAAAAAAAAC2BAAAAAAAALcEAAAAAAAAAAAAALcEAAAAAAAAuAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtAQAAAAAAAC0BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					23,
+					1,
+					"insert",
+					{
+						"characters": "ription"
+					},
+					"BwAAALgEAAAAAAAAuQQAAAAAAAAAAAAAuQQAAAAAAAC6BAAAAAAAAAAAAAC6BAAAAAAAALsEAAAAAAAAAAAAALsEAAAAAAAAvAQAAAAAAAAAAAAAvAQAAAAAAAC9BAAAAAAAAAAAAAC9BAAAAAAAAL4EAAAAAAAAAAAAAL4EAAAAAAAAvwQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuAQAAAAAAAC4BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": " ="
+					},
+					"AgAAAL8EAAAAAAAAwAQAAAAAAAAAAAAAwAQAAAAAAADBBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvwQAAAAAAAC/BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": " b"
+					},
+					"AgAAAMEEAAAAAAAAwgQAAAAAAAAAAAAAwgQAAAAAAADDBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwQQAAAAAAADBBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					26,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMIEAAAAAAAAwgQAAAAAAAABAAAAYg",
+					"AQAAAAAAAAABAAAAwwQAAAAAAADDBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": "d"
+					},
+					"AQAAAMIEAAAAAAAAwwQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwgQAAAAAAADCBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"insert_completion",
+					{
+						"completion": "db",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "db"
+					},
+					"AgAAAMIEAAAAAAAAwgQAAAAAAAABAAAAZMIEAAAAAAAAxAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwwQAAAAAAADDBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": "."
+					},
+					"AQAAAMQEAAAAAAAAxQQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxAQAAAAAAADEBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"insert_completion",
+					{
+						"completion": "Column",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": true,
+						"trigger": "Column"
+					},
+					"AQAAAMUEAAAAAAAAywQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxQQAAAAAAADFBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					31,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAMsEAAAAAAAAzQQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAywQAAAAAAADLBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": "d"
+					},
+					"AQAAAMwEAAAAAAAAzQQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzAQAAAAAAADMBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"insert_completion",
+					{
+						"completion": "db",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "db"
+					},
+					"AgAAAMwEAAAAAAAAzAQAAAAAAAABAAAAZMwEAAAAAAAAzgQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzQQAAAAAAADNBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					1,
+					"insert",
+					{
+						"characters": "."
+					},
+					"AQAAAM4EAAAAAAAAzwQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzgQAAAAAAADOBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					36,
+					1,
+					"insert_completion",
+					{
+						"completion": "String",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": true,
+						"trigger": "String"
+					},
+					"AQAAAM8EAAAAAAAA1QQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzwQAAAAAAADPBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					37,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAANUEAAAAAAAA1gQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1QQAAAAAAADVBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					38,
+					1,
+					"insert",
+					{
+						"characters": " nu"
+					},
+					"AwAAANYEAAAAAAAA1wQAAAAAAAAAAAAA1wQAAAAAAADYBAAAAAAAAAAAAADYBAAAAAAAANkEAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1gQAAAAAAADWBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					1,
+					"insert_completion",
+					{
+						"completion": "nullable",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "nullable"
+					},
+					"AgAAANcEAAAAAAAA1wQAAAAAAAACAAAAbnXXBAAAAAAAAN8EAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2QQAAAAAAADZBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"insert",
+					{
+						"characters": "=Fa"
+					},
+					"AwAAAN8EAAAAAAAA4AQAAAAAAAAAAAAA4AQAAAAAAADhBAAAAAAAAAAAAADhBAAAAAAAAOIEAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3wQAAAAAAADfBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					1,
+					"insert_completion",
+					{
+						"completion": "False",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "False"
+					},
+					"AgAAAOAEAAAAAAAA4AQAAAAAAAACAAAARmHgBAAAAAAAAOUEAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4gQAAAAAAADiBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					46,
+					1,
+					"insert",
+					{
+						"characters": "\nd"
+					},
+					"AwAAAEAHAAAAAAAAQQcAAAAAAAAAAAAAQQcAAAAAAABJBwAAAAAAAAAAAABJBwAAAAAAAEoHAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQAcAAAAAAABABwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					113,
+					4,
+					"left_delete",
+					null,
+					"BAAAAEkHAAAAAAAASQcAAAAAAAABAAAAZEUHAAAAAAAARQcAAAAAAAAEAAAAICAgIEEHAAAAAAAAQQcAAAAAAAAEAAAAICAgIEAHAAAAAAAAQAcAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAASgcAAAAAAABKBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					115,
+					1,
+					"insert",
+					{
+						"characters": "\ndb"
+					},
+					"BAAAANgGAAAAAAAA2QYAAAAAAAAAAAAA2QYAAAAAAADdBgAAAAAAAAAAAADdBgAAAAAAAN4GAAAAAAAAAAAAAN4GAAAAAAAA3wYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2AYAAAAAAADYBgAAAAAAAAAAAAAAYIRA"
+				],
+				[
+					116,
+					1,
+					"insert",
+					{
+						"characters": "."
+					},
+					"AQAAAN8GAAAAAAAA4AYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3wYAAAAAAADfBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					353,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAABIBwAAZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUKZnJvbSBjb3JlIGltcG9ydCBsb2dpbl9tYW5hZ2VyCmZyb20gZmxhc2tfc3FsYWxjaGVteSBpbXBvcnQgU1FMQWxjaGVteQpmcm9tIGZsYXNrX2xvZ2luIGltcG9ydCBVc2VyTWl4aW4KZnJvbSBjb3JlIGltcG9ydCBkYgoKQGxvZ2luX21hbmFnZXIudXNlcl9sb2FkZXIKZGVmIGxvYWRfdXNlcih1c2VyX2lkKToKICAgIHJldHVybiBVc2VyLnF1ZXJ5LmdldChpbnQodXNlcl9pZCkpCgoKY2xhc3MgVXNlcihkYi5Nb2RlbCwgVXNlck1peGluKToKICAgIGlkID0gZGIuQ29sdW1uKGRiLkludGVnZXIsIHByaW1hcnlfa2V5PVRydWUpCiAgICB1c2VybmFtZSA9IGRiLkNvbHVtbihkYi5TdHJpbmcoMjApLCB1bmlxdWU9VHJ1ZSwgbnVsbGFibGU9RmFsc2UpCiAgICBlbWFpbCA9IGRiLkNvbHVtbihkYi5TdHJpbmcoMTIwKSwgdW5pcXVlPVRydWUsIG51bGxhYmxlPUZhbHNlKQogICAgcGFzc3dvcmQgPSBkYi5Db2x1bW4oZGIuU3RyaW5nKDYwKSwgbnVsbGFibGU9RmFsc2UpCiAgICBpc19hZG1pbiA9IGRiLkNvbHVtbihkYi5Cb29sZWFuLCBudWxsYWJsZT1GYWxzZSwgZGVmYXVsdD1GYWxzZSkKICAgIAogICAgZGVmIGNoZWNrX3Bhc3N3b3JkKHNlbGYsIHBhc3N3b3JkKToKICAgICAgICByZXR1cm4gcGFzc3dvcmQgPT0gc2VsZi5wYXNzd29yZAogICAgCiAgICBkZWYgY291bnRfaWRzKHNlbGYpOgogICAgICAgIHJldHVybiBVc2VyLnF1ZXJ5LmNvdW50KCkKCiAgICBkZWYgX19yZXByX18oc2VsZik6CiAgICAgICAgcmV0dXJuIGYiVXNlcigne3NlbGYudXNlcm5hbWV9JywgJ3tzZWxmLmVtYWlsfScpIgoKY2xhc3MgSXRlbShkYi5Nb2RlbCk6CiAgICBpZCA9IGRiLkNvbHVtbihkYi5JbnRlZ2VyLHByaW1hcnlfa2V5PVRydWUpCiAgICBpdGVtX25hbWU9ZGIuQ29sdW1uKGRiLlN0cmluZygyMCksbnVsbGFibGU9RmFsc2UpCiAgICBwa2RfZGF0ZT1kYi5Db2x1bW4oZGIuRGF0ZVRpbWUsbnVsbGFibGU9RmFsc2UpCiAgICBleHBfZGF0ZT1kYi5Db2x1bW4oZGIuRGF0ZVRpbWUsbnVsbGFibGU9RmFsc2UpCiAgICBxdWFudGl0eT1kYi5Db2x1bW4oZGIuSW50ZWdlcixudWxsYWJsZT1GYWxzZSkKICAgIHByaWNlPWRiLkNvbHVtbihkYi5JbnRlZ2VyLG51bGxhYmxlPUZhbHNlKQogICAgaW1nID0gZGIuQ29sdW1uKGRiLkxhcmdlQmluYXJ5LCBudWxsYWJsZT1GYWxzZSkKICAgIGRlc2NyaXB0aW9uID0gZGIuQ29sdW1uKGRiLlN0cmluZywgbnVsbGFibGU9RmFsc2UpCiAgICBkZWYgX19yZXByX18oc2VsZik6CiAgICAgICAgcmV0dXJuIGYiYWRkSXRlbSgne3NlbGYuaXRlbV9uYW1lfScsJ3tzZWxmLnBrZF9kYXRlfScsJ3tzZWxmLmV4cF9kYXRlfScsJ3tzZWxmLnF1YW50aXR5fScpIgoKY2xhc3MgQmlsbChkYi5Nb2RlbCk6CiAgICBpZD1kYi5Db2x1bW4oZGIuSW50ZWdlcixwcmltYXJ5X2tleT1UcnVlKQogICAgdXNlcmlkID0gZGIuQ29sdW1uKGRiLkludGVnZXIsIGRiLkZvcmVpZ25LZXkoJ3VzZXIuaWQnKSkKICAgIGl0ZW1OYW1lPWRiLkNvbHVtbihkYi5TdHJpbmcoMjApLG51bGxhYmxlPUZhbHNlKQogICAgcXVhbnRpdHk9ZGIuQ29sdW1uKGRiLkludGVnZXIsbnVsbGFibGU9RmFsc2UpCiAgICBwcmljZT1kYi5Db2x1bW4oZGIuSW50ZWdlcixudWxsYWJsZT1GYWxzZSkKICAgIGNvZGVfdHJhbnNhY3Rpb249ZGIuQ29sdW1uKGRiLlN0cmluZygyMCksbnVsbGFibGU9RmFsc2UpCiAgICB1c2VyID0gZGIucmVsYXRpb25zaGlwKFVzZXIpCiAgICBkYi4KICAgIGRlZiBfX3JlcHJfXyhzZWxmKToKICAgICAgICByZXR1cm4gZiJiaWxsSXRlbSgne3NlbGYuaXRlbU5hbWV9JywgJ3tzZWxmLnF1YW50aXR5fScsJ3tzZWxmLnByaWNlfScpIgAAAAAAAAAAQQcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4AYAAAAAAADgBgAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "/D/PycharmProjects/TraumaCare/TraumaCare.sublime-project",
+			"settings":
+			{
+				"buffer_size": 100,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAEgAAAAAAAAASQAAAAAAAAAAAAAASQAAAAAAAABKAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASAAAAAAAAABIAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAEoAAAAAAAAATAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASgAAAAAAAABKAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "virrtual"
+					},
+					"CAAAAEsAAAAAAAAATAAAAAAAAAAAAAAATAAAAAAAAABNAAAAAAAAAAAAAABNAAAAAAAAAE4AAAAAAAAAAAAAAE4AAAAAAAAATwAAAAAAAAAAAAAATwAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAFEAAAAAAAAAAAAAAFEAAAAAAAAAUgAAAAAAAAAAAAAAUgAAAAAAAABTAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASwAAAAAAAABLAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					5,
+					"left_delete",
+					null,
+					"BQAAAFIAAAAAAAAAUgAAAAAAAAABAAAAbFEAAAAAAAAAUQAAAAAAAAABAAAAYVAAAAAAAAAAUAAAAAAAAAABAAAAdU8AAAAAAAAATwAAAAAAAAABAAAAdE4AAAAAAAAATgAAAAAAAAABAAAAcg",
+					"AQAAAAAAAAABAAAAUwAAAAAAAABTAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "tualenv"
+					},
+					"BwAAAE4AAAAAAAAATwAAAAAAAAAAAAAATwAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAFEAAAAAAAAAAAAAAFEAAAAAAAAAUgAAAAAAAAAAAAAAUgAAAAAAAABTAAAAAAAAAAAAAABTAAAAAAAAAFQAAAAAAAAAAAAAAFQAAAAAAAAAVQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATgAAAAAAAABOAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAFYAAAAAAAAAVwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVgAAAAAAAABWAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAFcAAAAAAAAAWAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVwAAAAAAAABXAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAFgAAAAAAAAAWgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWAAAAAAAAABYAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": "venv"
+					},
+					"BAAAAFkAAAAAAAAAWgAAAAAAAAAAAAAAWgAAAAAAAABbAAAAAAAAAAAAAABbAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAXQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWQAAAAAAAABZAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAF4AAAAAAAAAXwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXgAAAAAAAABeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAF8AAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABhAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXwAAAAAAAABfAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": "\\"
+					},
+					"AQAAAGEAAAAAAAAAYgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYQAAAAAAAABhAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGEAAAAAAAAAYQAAAAAAAAABAAAAXA",
+					"AQAAAAAAAAABAAAAYgAAAAAAAABiAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nVirtualenv\n----------\n\n  Sublime Text - Virtualenv\n  =========================\n\n  Manage your virtualenvs directly from Sublime Text 3. (BETA)\n\n  ## Features\n\n  - Reusable build system. Execute code with a virtualenv without\n  editing your paths manually.\n  - Virtualenv search. Finds virtualenvs in the open folders or anywhere in your system.\n  - Activation/Deactivation. Select or disable the current virtualenv easily.\n  - Create and delete virtualenvs. With target python selection.\n\n\n  ## Support\n\n  Only Sublime Text 3. Tested in Linux and Windows but it should work in OS X as well.\n\n\n  ## Usage\n\n  - Set your build system to `Python + Virtualenv`. (Tools -> Build System)\n  - Search \"Virtualenv\" in the command palette.\n\n\n  For further details and instructions see the README:\n  Preferences -> Package Settings -> Virtualenv -> README\n\n  -----------------------------------------------------------------------------------------\n\n  Hello! Thank you for testing this package.\n\n  IMPORTANT:\n\n  Before you start using the commands verify that the default settings are suitable for\n  your system. Check them in Preferences -> Package Settings -> Virtualenv.\n  *But* do not modify the default settings as you will lose all the changes if the package\n  is updated. You should override the necessary settings in Virtualenv -> User instead.\n\n  Please report any issues or suggestions in the issue tracker:\n  https://github.com/AdrianLC/sublime-text-virtualenv/issues",
+			"settings":
+			{
+				"buffer_size": 1517,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"insert",
+					{
+						"characters": "Package Control Messages\n========================\n\nVirtualenv\n----------\n\n  Sublime Text - Virtualenv\n  =========================\n\n  Manage your virtualenvs directly from Sublime Text 3. (BETA)\n\n  ## Features\n\n  - Reusable build system. Execute code with a virtualenv without\n  editing your paths manually.\n  - Virtualenv search. Finds virtualenvs in the open folders or anywhere in your system.\n  - Activation/Deactivation. Select or disable the current virtualenv easily.\n  - Create and delete virtualenvs. With target python selection.\n\n\n  ## Support\n\n  Only Sublime Text 3. Tested in Linux and Windows but it should work in OS X as well.\n\n\n  ## Usage\n\n  - Set your build system to `Python + Virtualenv`. (Tools -> Build System)\n  - Search \"Virtualenv\" in the command palette.\n\n\n  For further details and instructions see the README:\n  Preferences -> Package Settings -> Virtualenv -> README\n\n  -----------------------------------------------------------------------------------------\n\n  Hello! Thank you for testing this package.\n\n  IMPORTANT:\n\n  Before you start using the commands verify that the default settings are suitable for\n  your system. Check them in Preferences -> Package Settings -> Virtualenv.\n  *But* do not modify the default settings as you will lose all the changes if the package\n  is updated. You should override the necessary settings in Virtualenv -> User instead.\n\n  Please report any issues or suggestions in the issue tracker:\n  https://github.com/AdrianLC/sublime-text-virtualenv/issues"
+					},
+					"SwAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAADEAAAAAAAAAAAAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAAD0AAAAAAAAAAAAAAD0AAAAAAAAAPgAAAAAAAAAAAAAAPgAAAAAAAABIAAAAAAAAAAAAAABIAAAAAAAAAEkAAAAAAAAAAAAAAEkAAAAAAAAASgAAAAAAAAAAAAAASgAAAAAAAABlAAAAAAAAAAAAAABlAAAAAAAAAGYAAAAAAAAAAAAAAGYAAAAAAAAAgQAAAAAAAAAAAAAAgQAAAAAAAACCAAAAAAAAAAAAAACCAAAAAAAAAIMAAAAAAAAAAAAAAIMAAAAAAAAAwQAAAAAAAAAAAAAAwQAAAAAAAADCAAAAAAAAAAAAAADCAAAAAAAAAMMAAAAAAAAAAAAAAMMAAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADRAAAAAAAAAAAAAADRAAAAAAAAANIAAAAAAAAAAAAAANIAAAAAAAAAEwEAAAAAAAAAAAAAEwEAAAAAAAAUAQAAAAAAAAAAAAAUAQAAAAAAADIBAAAAAAAAAAAAADIBAAAAAAAAMwEAAAAAAAAAAAAAMwEAAAAAAACLAQAAAAAAAAAAAACLAQAAAAAAAIwBAAAAAAAAAAAAAIwBAAAAAAAA2QEAAAAAAAAAAAAA2QEAAAAAAADaAQAAAAAAAAAAAADaAQAAAAAAABoCAAAAAAAAAAAAABoCAAAAAAAAGwIAAAAAAAAAAAAAGwIAAAAAAAAcAgAAAAAAAAAAAAAcAgAAAAAAAB0CAAAAAAAAAAAAAB0CAAAAAAAAKQIAAAAAAAAAAAAAKQIAAAAAAAAqAgAAAAAAAAAAAAAqAgAAAAAAACsCAAAAAAAAAAAAACsCAAAAAAAAgQIAAAAAAAAAAAAAgQIAAAAAAACCAgAAAAAAAAAAAACCAgAAAAAAAIMCAAAAAAAAAAAAAIMCAAAAAAAAhAIAAAAAAAAAAAAAhAIAAAAAAACOAgAAAAAAAAAAAACOAgAAAAAAAI8CAAAAAAAAAAAAAI8CAAAAAAAAkAIAAAAAAAAAAAAAkAIAAAAAAADbAgAAAAAAAAAAAADbAgAAAAAAANwCAAAAAAAAAAAAANwCAAAAAAAACwMAAAAAAAAAAAAACwMAAAAAAAAMAwAAAAAAAAAAAAAMAwAAAAAAAA0DAAAAAAAAAAAAAA0DAAAAAAAADgMAAAAAAAAAAAAADgMAAAAAAABEAwAAAAAAAAAAAABEAwAAAAAAAEUDAAAAAAAAAAAAAEUDAAAAAAAAfgMAAAAAAAAAAAAAfgMAAAAAAAB/AwAAAAAAAAAAAAB/AwAAAAAAAIADAAAAAAAAAAAAAIADAAAAAAAA2wMAAAAAAAAAAAAA2wMAAAAAAADcAwAAAAAAAAAAAADcAwAAAAAAAN0DAAAAAAAAAAAAAN0DAAAAAAAACQQAAAAAAAAAAAAACQQAAAAAAAAKBAAAAAAAAAAAAAAKBAAAAAAAAAsEAAAAAAAAAAAAAAsEAAAAAAAAFwQAAAAAAAAAAAAAFwQAAAAAAAAYBAAAAAAAAAAAAAAYBAAAAAAAABkEAAAAAAAAAAAAABkEAAAAAAAAcAQAAAAAAAAAAAAAcAQAAAAAAABxBAAAAAAAAAAAAABxBAAAAAAAALwEAAAAAAAAAAAAALwEAAAAAAAAvQQAAAAAAAAAAAAAvQQAAAAAAAAXBQAAAAAAAAAAAAAXBQAAAAAAABgFAAAAAAAAAAAAABgFAAAAAAAAbwUAAAAAAAAAAAAAbwUAAAAAAABwBQAAAAAAAAAAAABwBQAAAAAAAHEFAAAAAAAAAAAAAHEFAAAAAAAAsAUAAAAAAAAAAAAAsAUAAAAAAACxBQAAAAAAAAAAAACxBQAAAAAAAO0FAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"contents": "Sublime Text - Virtualenv\n=========================\n\nManage your virtualenvs directly from Sublime Text __3__.\n\n## Features\n\n- __Reusable build system__. Execute code with a virtualenv without\nediting your paths manually.\n- __Virtualenv search__. Finds virtualenvs in the open folders or _anywhere_ in your system.\n- __Activation/Deactivation__. Select or disable the current virtualenv easily.\n- __Create and delete virtualenvs__. With target python selection. Supports both the standard\n[virtualenv][] package and the built-in [venv][pyvenv] module from Python 3.3.\n- __Integration with other packages__. SublimeREPL.\n\n\n## Support\n\nOnly Sublime Text 3. Tested in Linux and Windows but it should work in OS X as well.\n\n\n## Installation\n\nInstall through Package Control as usual:\n\n1. Open command palette through the menu or with `Ctrl+Shift+P`.\n2. Select `Package Control: Install Package`.\n3. Search _Virtualenv_ and press enter.\n\nDetailed instructions [here][packageControl].\n\n\n## Usage\n\n#### Code Execution\n\nEnable the `Python + Virtualenv` build system through the `Tools -> Build System` menu and execute with `Ctrl+B`. If you do not have any other custom Python builds defined, `Automatic` should work too.\n\nThe build system works with or without an activated virtualenv, so it can be used as default build for Python.\n\n#### Activate\n\nSearch `Virtualenv: Activate` in the command palette and select the desired virtualenv.\n\n#### Deactivate\n\nThe command `Virtualenv: Deactivate` is available when a virtualenv is activated.\n\n#### Creating a virtualenv\n\nChoose `Virtualenv: New` (or `Virtualenv: New (venv)` for built-in virtualenv), type a destination\npath and select a python binary. The new virtualenv will be activated automatically.\n\n#### Deleting a virtualenv\n\nUse the command `Virtualenv: Remove`, choose a virtualenv and confirm.\n\n#### Integrations\n\nLaunch a Python REPL using the current virtualenv with the command `Virtualenv: SublimeREPL - Python`.\n\n\n## Settings\n\nThe list of default settings is available through `Preferences -> Package Settings -> Virtualenv -> Default`. Do not modify the default settings as you will lose all the changes if the package is updated. You should override the necessary settings in `Package Settings -> Virtualenv -> User` instead.\n\n#### executable\n\nThe executable used for virtualenv creation. Defaults to `python -m virtualenv`, assuming that virtualenv is installed on the default python prefix.\nDepending on your setup you might want to change this to something like: `virtualenv`, `virtualenv-3.3`, `python3 -m virtualenv`, etc.\n\n#### virtualenv_directories\n\nA list of directory paths searched for virtualenvs. By default, includes [virtualenvwrapper][]'s `WORKON_HOME`. `~/.virtualenvs` in Linux and OS X, and `~\\Envs` in Windows ([virtualenvwrapper-win][]).\n\nThere is a shortcut command for quickly adding a virtualenv directory to your settings: `Virtualenv: Add directory`.\n\n#### extra_paths\n\nAdditional paths searched for python binaries. It might be useful in case of portable python installations. Defaults to none.\n\n\n## Advanced\n\nThe current virtualenv path is stored in the project settings and can be edited manually if the project has been saved to a `*.sublime-project` file.\n\nExtending or customizing the build system should be possible. Just set `\"target\": \"virtualenv_exec\"` in your build system definition, or import and inherit from `Virtualenv.commands.VirtualenvExecCommand`. More information on Sublime Text's build systems [here][buildSystems].\n\n\n## Future plans\n\nJust some ideas for possible improvements.\n\n- Integration with more packages. Paths for [SublimeCodeIntel][]?\n- _Brother_ package for `pip` commands.\n\n\n\n\n[packageControl]: https://sublime.wbond.net/docs/usage \"Package Control\"\n[buildSystems]: http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/build_systems.html \"Sublime Text build systems\"\n[virtualenv]: https://virtualenv.pypa.io/en/latest/ \"virtualenv\"\n[virtualenvwrapper]: http://virtualenvwrapper.readthedocs.org/en/latest/ \"virtualenvwrapper\"\n[virtualenvwrapper-win]: https://github.com/davidmarble/virtualenvwrapper-win/ \"virtualenvwrapper-win\"\n[pyvenv]: https://docs.python.org/3.3/library/venv.html \"pyvenv\"\n[SublimeREPL]: https://github.com/wuub/SublimeREPL \"SublimeREPL\"\n[SublimeCodeIntel]: http://sublimecodeintel.github.io/SublimeCodeIntel/ \"SublimeCodeIntel\"\n",
+			"file": "/C/Users/jeffl/AppData/Roaming/Sublime Text/Packages/Virtualenv/README.md",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 4394,
+				"line_ending": "Windows",
+				"read_only": true,
+				"scratch": true,
+				"unsaved": true
+			}
+		},
+		{
+			"file": "templates/bill.html",
+			"settings":
+			{
+				"buffer_size": 584,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\n<"
+					},
+					"AwAAAH8BAAAAAAAAgAEAAAAAAAAAAAAAgAEAAAAAAACEAQAAAAAAAAAAAACEAQAAAAAAAIUBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAfwEAAAAAAAB/AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "td>"
+					},
+					"AwAAAIUBAAAAAAAAhgEAAAAAAAAAAAAAhgEAAAAAAACHAQAAAAAAAAAAAACHAQAAAAAAAIgBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhQEAAAAAAACFAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAAIgBAAAAAAAAiQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiAEAAAAAAACIAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIgBAAAAAAAAiAEAAAAAAAABAAAALw",
+					"AQAAAAAAAAABAAAAiQEAAAAAAACJAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "<"
+					},
+					"AQAAAIgBAAAAAAAAiQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiAEAAAAAAACIAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"close_tag",
+					{
+						"insert_slash": true
+					},
+					"AQAAAIkBAAAAAAAAjQEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiQEAAAAAAACJAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "{{}}"
+					},
+					"BAAAAIgBAAAAAAAAiQEAAAAAAAAAAAAAiQEAAAAAAACKAQAAAAAAAAAAAACKAQAAAAAAAIsBAAAAAAAAAAAAAIsBAAAAAAAAjAEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiAEAAAAAAACIAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": "bills."
+					},
+					"BgAAAIoBAAAAAAAAiwEAAAAAAAAAAAAAiwEAAAAAAACMAQAAAAAAAAAAAACMAQAAAAAAAI0BAAAAAAAAAAAAAI0BAAAAAAAAjgEAAAAAAAAAAAAAjgEAAAAAAACPAQAAAAAAAAAAAACPAQAAAAAAAJABAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAigEAAAAAAACKAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": "userid"
+					},
+					"BgAAAJABAAAAAAAAkQEAAAAAAAAAAAAAkQEAAAAAAACSAQAAAAAAAAAAAACSAQAAAAAAAJMBAAAAAAAAAAAAAJMBAAAAAAAAlAEAAAAAAAAAAAAAlAEAAAAAAACVAQAAAAAAAAAAAACVAQAAAAAAAJYBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkAEAAAAAAACQAQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"virtual",
+				"Build With: Python + Virtualenv"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/PycharmProjects/TraumaCare",
+		"/D/PycharmProjects/TraumaCare/core",
+		"/D/PycharmProjects/TraumaCare/core/static",
+		"/D/PycharmProjects/TraumaCare/core/static/css",
+		"/D/PycharmProjects/TraumaCare/core/templates"
+	],
+	"file_history":
+	[
+		"/D/PycharmProjects/TraumaCare/venv/Lib/site-packages/alembic-1.10.4.dist-info/INSTALLER",
+		"/D/PycharmProjects/TraumaCare/core/templates/about.html",
+		"/D/PycharmProjects/TraumaCare/core/templates/layout.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "clientrouter.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								315,
+								315
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/catalog.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 985,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								888,
+								888
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1760,
+								1760
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 285.6,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/PycharmProjects/TraumaCare/TraumaCare.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								781,
+								781
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.2,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/jeffl/AppData/Roaming/Sublime Text/Packages/Virtualenv/README.md",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4394,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4394,
+								4394
+							]
+						],
+						"settings":
+						{
+							"mini_diff": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 531.2,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "templates/bill.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 584,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								514,
+								514
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Virtualenv/Python + Virtualenv.sublime-build",
+	"project": "TraumaCare.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

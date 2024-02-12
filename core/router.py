@@ -148,7 +148,8 @@ def editItems():
                        pkd_date=form.pkdDate.data, 
                        exp_date=form.expDate.data, 
                        quantity=form.quantity.data, 
-                       price=form.price.data)
+                       price=form.price.data,
+                       description=form.description.data)
             db.session.add(addd)
             db.session.commit()
         return redirect(url_for('editItems'))
